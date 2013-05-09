@@ -57,7 +57,7 @@ $getuser = $_POST['user'];
 									/* If user addition was successful - send activation email to the user */
 									if ($numrows == 1) 
 									{
-										$site = "http://localhost/Lyfsync";
+										$site = "http://localhost/lyfsync_alternate";
 										$webmaster = "red_lyfsync <admin@lyfsync.com>";
 										$headers = "From: $webmaster";
 										$subject = "Lyfsync: Activate Your Account";

@@ -3,7 +3,7 @@
 <table>
 <tr>
 	<td onmouseover = "showmenu('search')" onmouseout = "hidemenu('search')"> <?php /* Refer to homeJS.js file in _js folder. */ ?>
-		<img src = './_img/Filter_Icon.jpg' valign = 'middle' style = 'height: 20px'>
+		<img src = '/lyfsync_alternate/img/Filter_Icon.jpg' valign = 'middle' style = 'height: 20px'>
 			<table class = 'search_dropdown_menu' id = 'search'>
 			<tr style = 'height: 22px'>
 				<td class = "search_dropdown_menu" align = 'center'>

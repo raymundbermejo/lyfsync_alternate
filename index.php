@@ -35,7 +35,7 @@ a Pinterest-like filter button that will call to the database. Also, this will h
 			<form action = './index.php' method = 'get' style = 'margin-top: 2px'>
 				<input class = 'index_search' size = '50' placeholder = 'Search for Events in Your Area'>
 				<button class = 'search' type='submit' value='Search' / style = 'height: 30px'>
-					<img src = '/Lyfsync/img/Sample_Search_Icon_1.png' valign = 'middle' style = 'height: 20px'>
+					<img src = '/lyfsync_alternate/img/Sample_Search_Icon_1.png' valign = 'middle' style = 'height: 20px'>
 				</button>
 			</form>
 		</td>
@@ -52,7 +52,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>February 2013 @ Bonifacio Global City.</text><br>
 			<div class = 'meta'>By: Color Manila</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/CM.jpg'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/CM.jpg'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -60,7 +60,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>April 27, 2013 from 4PM to 4AM @ The MOA Concert Grounds.</text><br>
 			<div class = "meta">By: Closeup</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/SS.jpg'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/SS.jpg'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -68,7 +68,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>World's largest paint party.</text><br>
 			<div class = "meta">By: [Event Organizer]</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/RB.png'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/RB.png'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -76,7 +76,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>During OrSem Night 2013. Bidding is on April 25, 2013 at SOM 111 4:30-630PM.</text><br>
 			<div class = "meta">By: SOM</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/BAC.jpg'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/BAC.jpg'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -84,7 +84,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>The up music circle album launch.</text><br>
 			<div class = "meta">By: UP Music Circle</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/HG.png'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/HG.png'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -92,7 +92,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>[Description]</text><br>
 			<div class = "meta">By: [Event Organizer]</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/LUAU.png'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/LUAU.png'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -100,7 +100,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>The hottest bazaar in the Metro.</text><br>
 			<div class = "meta">By: [Event Organizer]</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/SOL.png'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/SOL.png'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -108,7 +108,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>Hop on the beat of hiphop royalty at Ayala Malls.</text><br>
 			<div class = "meta">By: [Event Organizer]</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/RQ.png'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/RQ.png'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -116,7 +116,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>Training and development. See poster for details.</text><br>
 			<div class = "meta">By: COA</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/COA.jpg'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/COA.jpg'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -124,7 +124,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>Training begins on April 22, 2013, every MWF from 3pm to 5PM.</text><br>
 			<div class = "meta">By: CADS</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/CADS.jpg'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/CADS.jpg'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -132,7 +132,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>Apply for Project Head for CoSA 2013-2014! For more details contact: 09175687898</text><br>
 			<div class = "meta">By: CoSA</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/AD.jpg'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/AD.jpg'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -140,7 +140,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>April 25 & 26. 4:30-8:00PM. Venue: TBA.</text><br>
 			<div class = "meta">By: [Event Organizer]</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/HH.jpg'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/HH.jpg'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -148,7 +148,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>[Description]</text><br>
 			<div class = "meta">By: [Event Organizer]</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/L.png'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/L.png'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -156,7 +156,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>[Description]</text><br>
 			<div class = "meta">By: [Event Organizer]</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/L.png'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/L.png'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -164,7 +164,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>[Description]</text><br>
 			<div class = "meta">By: [Event Organizer]</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/L.png'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/L.png'>
 			</div>
 		</div>
 		<div class = "grid">
@@ -172,7 +172,7 @@ with a call to the database and automating the front-end template using either t
 			<text class = 'description'>[Description]</text><br>
 			<div class = "meta">By: [Event Organizer]</div>
 			<div class = "imgholder" align = 'center'>
-				<img src = '/Lyfsync/photos/SampleEventPosters/L.png'>
+				<img src = '/lyfsync_alternate/photos/SampleEventPosters/L.png'>
 			</div>
 		</div>
 	</div>

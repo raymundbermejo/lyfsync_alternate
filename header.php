@@ -4,7 +4,7 @@
 	<tr>
 		<td align = 'left'>
 			<div align = 'left' style = 'height: 80px; width: 500px'>
-				<a href = 'index.php'><img src = '/LyfSync/img/Lyfsync_BigText_Logo.jpg' style = 'width: 150px; padding-top: 5px; padding-left: 80px'></a>
+				<a href = 'index.php'><img src = '/lyfsync_alternate/img/Lyfsync_BigText_Logo.jpg' style = 'width: 150px; padding-top: 5px; padding-left: 80px'></a>
 			</div>
 		</td>
 		<td>

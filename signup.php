@@ -15,7 +15,7 @@ if ( $_POST['registerbtn'])
 ?>
 
 <div class = 'signup' align = 'center' valign = 'middle'>
-	<form action = './Sign_Up_Page.php' method = 'post'>
+	<form action = './signup.php' method = 'post'>
 		<table style = 'width: 380'>
 			<tr>
 				<td align = 'left' valign = 'middle' style = 'height: 55px; border-bottom: solid 1px #E6E6E6'>

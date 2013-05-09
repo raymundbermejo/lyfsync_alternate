@@ -6,7 +6,7 @@
 		<table class = 'logged_in_indicator' align = 'right' valign = 'middle'>
 		<tr>
 			<td class = 'logged_in_indicator' align = 'center' style = 'width: 40px'>
-				<a href = 'dashboard.php'><img src = './_img/sample_thumbnail.jpg' style = 'height: 25px'></a>
+				<a href = 'dashboard.php'><img src = '/lyfsync_alternate/img/sample_thumbnail.jpg' style = 'height: 25px'></a>
 			</td>
 			<td valign = 'middle' style = 'width: 130px'>
 				<a class = 'logged_in_indicator' href = 'dashboard.php'>
@@ -19,10 +19,10 @@
 				</a>
 			</td>
 			<td class = 'logged_in_indicator' align = 'center' valign = 'middle' style = 'width: 20px; padding-left: 8px; padding-right: 8px'>
-				<a href = './home.php' title = 'Home'><img src =  './_img/Home_Icon.jpg' valign = 'middle' style = 'height: 17px'</a>
+				<a href = './home.php' title = 'Home'><img src =  '/lyfsync_alternate/img/Home_Icon.jpg' valign = 'middle' style = 'height: 17px'</a>
 			</td>
 			<td class = 'logged_in_indicator' align = 'center' valign = 'middle' style = 'width: 20px; padding-left: 8px; padding-right: 8px'>
-				<a href = './dashboard.php' title = 'Dashboard'><img src =  './_img/Dashboard_Icon.jpg' valign = 'middle' style = 'height: 17px'</a>
+				<a href = './dashboard.php' title = 'Dashboard'><img src =  '/lyfsync_alternate/Dashboard_Icon.jpg' valign = 'middle' style = 'height: 17px'</a>
 			</td>
 			<td align = 'right' valign = 'middle' style = 'padding-left: 8px; padding-right: 12px'>
 				<?php include "logged_in_indicator_dropdown_menu.php"; ?>
