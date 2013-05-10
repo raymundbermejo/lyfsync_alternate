@@ -1,0 +1,821 @@
+/* Scrollbars */	
+	::-webkit-scrollbar 
+	{
+		width: 7px;
+		background: #fafafa;
+	}
+	 
+	/* Track */
+	::-webkit-scrollbar-track 
+	{
+		-webkit-box-shadow: inset 0 0 0px #ccc; 
+		-webkit-border-radius:5px;
+		border-radius: 5px;
+	}
+	 
+	/* Handle */
+	::-webkit-scrollbar-thumb 
+	{
+		-webkit-border-radius: 1px;
+		border-radius: 20px;
+		background: #f2f2f2; 
+		-webkit-box-shadow: inset 0 0 1px #ccc; 
+	}
+	::-webkit-scrollbar-thumb:window-inactive 
+	{
+		background: #ffffff; 
+	}
+
+	
+/* Header */
+	div.home_header
+	{
+		height: 75px; 
+		background: #ffffff;
+		padding-left: 14px;
+		padding-right: 11px; 
+		box-shadow: inset 0px -11px 4px -11px #CCC;
+	}
+
+	/* Home Navigation Bar */
+	td.home_navbar
+	{
+		height: 40px; 
+		background: white;
+		border: 1px solid #ffffff;
+		color: black;
+		padding-left: 20px; 
+		padding-right: 20px;
+	}
+	td.home_navbar:hover
+	{
+		background: #E3F6CE;
+		border: 1px solid #D0F5A9;
+		border-radius: 3px;
+	}
+	a.home_navbar
+	{
+		text-decoration: none;
+	}
+	
+	/* Signup_and_Login_Header_Interface */
+	div.signup_login
+	{
+		height: 70px; 
+		display: block;
+	}
+	td.signup_login
+	{
+		font-family: Calibri;
+		font-size: 13px;
+		color: Grey;
+	}
+	button.signup_login 
+	{
+		width: 175px; 
+		height: 31px; 
+		font-family: Calibri;
+		font-size: 17px;
+		color: #1C1C1C;
+		background: #ffffff;
+		border-radius: 4px;
+		border: 1px solid #ccc; 
+	}
+	button.signup_login:hover
+	{
+		background: #fafafa;
+		border: 1px solid #ccc;
+		color: #606060;
+	}
+	
+	
+	/* Log In Interface */
+	input.login
+	{
+		font-family: Calibri; 
+		font-size: 13px; 
+		width: 175px; 
+		height: 25px; 
+		background: #ffffff;
+		border-radius: 4px; 				
+		border: 1px solid #BFBDBD; 
+		padding-left: 6px;
+	}
+	button.login
+	{
+		font-family: Calibri;
+		font-size: 13px;
+		color: #1C1C1C;
+		width: 55px; 
+		height: 21px;
+		background: #ffffff;
+		border-radius: 4px;
+		border: 1px solid #ccc; 
+	}
+	button.login:hover
+	{
+		background: #fafafa;
+		border: 1px solid #ccc;
+		color: #606060;
+	}
+	
+	/* Sign Up Page */
+	div.signup
+	{
+		width: 450px; 
+		height: 464px; 
+		border-radius: 4px;
+		border: 1px solid #E6E6E6; 
+		padding-top: 15px; 
+		margin-top: 21px; 
+		margin-bottom: 18px;'
+	}
+	td.signup
+	{
+		font-family: Calibri;
+		font-size: 17px;
+	}
+	input.signup
+	{
+		width: 210px; 
+		height: 35px; 
+		border-radius: 3px; 
+		border: 1px solid #ccc; 
+		padding-left: 5px
+	}
+
+	
+/* Footer */
+	div.footer
+	{
+		height: 25px; 
+		background: #F0F0F0;  
+		box-shadow: 0px 0px 1px 0px #ccc; 
+		padding-top: 6px; 
+		margin-top: 10px;
+	}
+	
+	
+/* Home Featured Events */
+	/* Search Filter Drop Down Menu*/
+	table.search_dropdown_menu
+	{
+		background: #ffffff;
+		border-radius: 3px;
+		border: 1px solid #ccc; 
+		position: fixed; top: 100px; left: 160px;
+		visibility: hidden;
+	}
+	td.search_dropdown_menu
+	{
+		background: #ffffff; 
+		padding-left: 2px
+	}
+	button.search_dropdown_menu
+	{
+		text-align: left;
+		width: 130px;
+		height: 22px;
+		background: white;
+		border: 1px solid #ffffff; 
+		border-radius: 3px;
+		color: black;
+		padding-left: 7px;
+	}
+	button.search_dropdown_menu:hover
+	{
+		background: #f2f2f2;
+		border: 1px solid #fafafa;
+		border-radius: 3px;
+		color: #606060; 
+	}
+	
+	/* Search Bar */
+	input.home_search
+	{
+		font-family: Calibri; 
+		font-size: 13px; 
+		width: 420px; 
+		height: 30px; 
+		background: #ffffff; 
+		border-radius: 3px; 
+		border: 1px solid #BFBDBD; 
+		margin-left: 6px; 
+		padding-left: 7px;
+	}
+	
+	/* Search Bar Button */
+	button.search
+	{
+		background: white; 
+		border: 0px solid #ffffff; 
+		border-radius: 2px;
+	}
+	button.search:hover
+	{
+		background: #fafafa; 
+		border: 0px solid #ccc; 
+		border-radius: 2px;
+	}
+	
+	div.featured_events
+	{
+		width: 1150px; 
+		background: #ffffff;
+		border-radius: 2px; 
+		border: 15px solid #ffffff; 
+	}
+
+/* Dashboard Header */
+	div.dashboard_header
+	{
+		height: 75px; 
+		background: #ffffff; 
+		box-shadow: inset 0px -11px 4px -11px #CCC;
+	}
+
+	/* Logged_In_Indicator */ 
+	div.logged_in_indicator
+	{
+		width: 357px; 
+		height: 65px; 
+		display: block;
+	}
+	table.logged_in_indicator
+	{
+		width: 280px; 
+		height: 50px; 
+		border-radius:4px;
+		border: 1px solid #E6E6E6;
+		padding-top: 1px
+	}
+	td.logged_in_indicator
+	{
+		background: white;
+		border: 1px solid #ffffff; 
+		border-radius: 2px;
+	}
+	td.logged_in_indicator:hover
+	{
+		background: #fafafa;
+		border: 1px solid #ccc;
+		border-radius: 2px;
+		color: #606060;
+	}
+	a.logged_in_indicator 
+	{
+		color: #63BA33; 
+		text-decoration: none;
+	}
+	a.logged_in_indicator:hover {color: Grey}
+	
+	
+	
+/* Options Drop Down Menu on Logged In Indicator*/
+	table.options_dropdown_menu
+	{
+		border-radius: 3px;
+		border: 1px solid #ccc; 
+		position: absolute;
+		visibility: hidden;
+	}
+	td.options_dropdown_menu{background:#ffffff}
+	td.options_dropdown_menu:hover {background: #fafafa}
+	button.options_dropdown_menu
+	{
+		height: 20px;
+		background: white;
+		border: 1px solid #ffffff; 
+		border-radius: 2px;
+		color: black;
+	}
+	button.options_dropdown_menu:hover
+	{
+		height: 20px;
+		background: #fafafa;
+		border: 1px solid #fafafa;
+		border-radius: 2px;
+		color: #606060;
+	}
+
+
+/* Settings */
+	div.settings_main
+	{
+		width: 1285px; 
+		height: 451px; 
+		border-radius: 3px; 
+		border: 1px solid #E6E6E6; 
+		padding-top: 22px; 
+		padding-bottom: 5px;	
+		padding-left: 5px; 
+		padding-right: 5px;
+		margin-top: 21px; 
+		margin-bottom: 19px; 
+	}
+	div.settings_main_header
+	{
+		width: 1210px; 
+		height: 40px; 
+		border-bottom: 1px solid #E6E6E6; 
+		margin-bottom: 20px
+	}
+	
+	
+	
+/* Dashboard Navigation Bar */
+	td.dashboard_navbar
+	{
+		height: 40px; 
+		background: white;
+		border: 1px solid #ffffff;
+		border-radius: 2px;
+		color: black;
+		padding-left: 15px; 
+		padding-right: 15px;
+	}
+	td.dashboard_navbar:hover
+	{
+		background: #fafafa;
+		border: 1px solid #ccc;
+		border-radius: 2px;
+		color: #606060;
+	}
+	a.dashboard_navbar
+	{
+		text-decoration: none;
+	}
+	
+/* Dashboard */
+	div.dashboard
+	{
+		width: 1335px; 
+		height: 484px; 
+		border-radius: 2px; 
+		padding: 5px;
+		margin-top: 13px; 
+		margin-bottom: 13px;
+	}
+	
+	/* Dashboard Profile Banner */
+	table.profile_banner_main
+	{
+		width: 318px; 
+		height: 60px; 
+		background: #D0F5A9; 
+		border-radius: 4px; 
+		margin-bottom: 6px;
+	}
+	div.profile_banner_content
+	{
+		height: 15px; 
+		font-family: Calibri;
+		font-size: 13px;
+		color: #63BA33;
+		text-decoration: underline;
+		padding-right: 7px;
+		margin-top: 3px; 
+	}
+	
+	/* Dashboard Newsfeed */
+	table.newsfeed
+	{
+		width: 318px; 
+		height: 404px; 
+		border-radius: 4px;
+		border: 1px solid #E6E6E6; 
+	}
+	
+	/* Dashboard Event Calendar, Events Creation, Events Discovery, Events Management & My Friends DIVs */
+	#myDiv 
+	{
+		width: 970px; 
+		height: 476px; 
+		border-radius: 4px;
+		border: 1px solid #E6E6E6;
+		padding-top: 2px; 
+		margin-left: 2px;
+	} 
+	div.content_header
+	{
+		width: 910px; 
+		height: 40px; 
+		font-family: Calibri; 
+		font-size: 23px; 
+		font-weight: bold;
+		color: #63BA33;
+		border-bottom: 1px solid #E6E6E6; 
+		margin-bottom: 20px;
+	}
+	
+
+/* TABS: Calendar View Tabs & Friends Tabs (Buttons) */
+	button.tab
+	{
+		font-family: Calibri;
+		font-size: 13px;
+		color: #000000;
+		width: 100px;
+		height: 32px;
+		background: #ffffff;
+		border-radius: 3px;
+		border-top: 2px solid #f2f2f2;
+		border-left: 2px solid #f2f2f2;
+		border-right: 2px solid #f2f2f2;
+		border-bottom: 2px solid #ffffff;
+	}
+	button.tab:hover
+	{
+		border-top: 3px solid #e6e6e6;
+		border-left: 3px solid #e6e6e6;
+		border-right: 3px solid #e6e6e6;
+		border-bottom: 3px solid #ffffff;
+	}
+	
+	
+/* Event Calendar on Dashboard */
+	/* Calendar Sync Options on Header: With either Google Calendar or Facebook Calendar */
+	button.calendar_sync
+	{
+		height: 25px;
+		font-family: Calibri;
+		font-size: 13px;
+		color: #000000;
+		background: #ffffff;
+		border-top: 1px solid #f2f2f2;
+		border-bottom: 1px solid #f2f2f2;
+		border-left: 1px solid #ffffff;
+		border-right: 1px solid #ffffff;
+	}
+	button.calendar_sync:hover
+	{
+		color: Grey;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;		
+	}	
+	
+	/* Calendar */
+	div.calendar
+	{
+		width: 710px; 
+		height: 330px; 
+		border-radius: 3px;
+		border: 2px dashed #D0F5A9; 
+	}
+	
+	/* Friends List left of Calendar */
+	td.friendslist_main
+	{
+		font-family: Calibri;
+		font-size: 13px;
+		padding-left: 10px;
+	}
+	div.friendslist_content
+	{
+		width: 180px; 
+		height: 310px; 
+		padding-right: 3px; 
+		margin-top: 8px; 
+		overflow: auto
+	}
+	
+		/* Friends Thunbnails */
+		table.friends_thumbnail
+		{
+			width: 170px; 
+			height: 25px; 
+			border: solid 1px #e6e6e6; 
+			border-radius: 2px; 
+			margin-bottom: 3px
+		}
+		table.friends_thumbnail:hover
+		{
+			background: #fafafa;
+		}
+		td.friends_thumbnail
+		{
+			font-family: Calibri;
+			font-size: 13px;
+			color: #ccc;
+			padding: 3px;
+		}	
+
+	
+/* Events Creation on Dashboard */
+	/* Create Event Button (Events Discovery Page) */
+	td.create_event
+	{
+		height: 35px;
+		font-family: Calibri;
+		font-size: 17px;
+	}
+	textarea.create_event
+	{
+		font-family: Calibri; 
+		width: 290px; 
+		height: 35px; 
+		border-radius: 3px; 
+		border: 1px solid #ccc; 
+		padding: 5px;
+	}
+	input.create_event
+	{
+		font-family: Calibri; 
+		width: 290px; 
+		height: 35px; 
+		border-radius: 3px; 
+		border: 1px solid #ccc; 
+		padding: 5px;
+	}
+	button.button
+	{
+		width: 80px;
+		height: 30px;
+		font-family: Calibri;
+		font-size: 12px;
+		color: #585858;
+		background: #D0F5A9; 
+		border: solid 1px white; 
+		border-radius: 4px; 
+	}
+	button.button:hover
+	{
+		background: #D0F5A9; 
+		border: solid 1px #D0F5A9; 
+		border-radius: 4px; 
+	}
+	
+	
+
+/* Events Discovery on Dashboard */
+	input.dashboard_search
+	{
+		font-family: Calibri; 
+		font-size: 13px; 
+		width: 370px; 
+		height: 30px; 
+		background-color: #ffffff; 
+		border-radius: 3px; 
+		border: 1px solid #BFBDBD; 
+		padding-left: 7px;
+	}
+	div.showing_results
+	{
+		width: 729px; 
+		height: 15px;
+		border-radius: 3px; 
+		margin-left: 3px;
+	}
+	h4.showing_results
+	{
+		font-family: Calibri;
+		font-size: 13px;
+	}
+	div.results
+	{
+		width: 729px; 
+		height: 302px;
+		border-radius: 3px; 
+		margin-left: 3px;
+		overflow: auto; 
+	}
+	div.recommended_events
+	{
+		width: 160px; 
+		height: 349px; 
+		font-family: Calibri;
+		font-size: 13px;
+		background: #fafafa; 
+		border-radius: 3px; 
+		border: 1px solid #e6e6e6;
+		padding-top: 10px; 
+		padding-bottom: 10px; 
+		padding-left: 5px; 
+		padding-right: 5px
+	}
+
+	
+/* Events Management on Dashboard */
+	/* My Events */
+	div.my_events_header
+	{
+		font-family: Calibri;
+		font-size: 13px;
+		font-weight: bold;
+		background: #fafafa; 
+		border-radius: 2px;
+		border: 1px solid #f2f2f2;  
+		padding-top: 5px; 
+		padding-bottom: 5px;
+	}
+	div.my_events_content
+	{
+		width: 600px; 
+		height: 330px; 
+		padding-top: 10px; 
+		margin-top: 1px; 
+		overflow: auto;
+	}
+	div.my_event_thumbnails
+	{
+		width: 420px; 
+		height: 90px; 
+		border-radius: 2px;
+		border: 1px dashed #ccc; 
+		margin-bottom: 3px
+	}
+	/* My Tickets */
+	div.my_tickets_header
+	{
+		font-family: Calibri;
+		font-size: 13px;
+		font-weight: bold;
+		background: #fafafa; 
+		border-radius: 2px; 
+		border: solid 1px #f2f2f2; 
+		padding-top: 5px; 
+		padding-bottom: 5px
+	}
+	div.my_tickets_content
+	{
+		width: 305px; 
+		height: 330px; 
+		padding-top: 10px;
+		margin-top: 1px; 
+		overflow: auto
+	}
+	div.my_ticket_thumbnails
+	{
+		width: 230px; 
+		height: 35px; 
+		border-radius: 2px;
+		border: 1px dashed #ccc;
+		margin-bottom: 3px
+	}
+	
+
+
+/* My Friends on Dashboard */
+	div.friends
+	{
+		width: 705px; 
+		height: 330px; 
+		font-family: Calibri;
+		font-size: 23px;
+		color: #e6e6e6;
+		border-radius: 3px;
+		border: 2px solid #f2f2f2;
+	}
+	/* List of People You May Know (Suggested) */
+	div.people_you_may_know
+	{
+		width: 175px; 
+		height: 200px; 
+		font-family: Calibri;
+		font-size: 13px;
+		background: #fafafa; 
+		border-radius: 3px; 
+		border: 1px solid #e6e6e6;
+		padding-top: 10px; 
+		padding-bottom: 10px;
+		padding-left: 5px; 
+		padding-right: 5px
+	}
+	
+	
+/* Events Page */
+	div.events_page
+	{
+		width: 1285px; 
+		height: 451px; 
+		border-radius: 3px;
+		border: 1px solid #E6E6E6; 
+		padding-top: 22px; 
+		padding-bottom: 5px; 
+		padding-left: 5px; 
+		padding-right: 5px;
+		margin-top: 21px; 
+		margin-bottom: 19px; 
+	}
+	
+	/* Events Page Header */
+	table.events_page_header
+	{
+		width: 1210px; 
+		height: 60px; 
+		border-bottom: 1px solid #E6E6E6;
+	}
+	
+	
+	/* Events Page Content */
+	div.events_page_content
+	{
+		width: 800px; 
+		height: 280px; 
+		border-radius: 4px; 
+		border: 1px solid #E6E6E6;
+		padding-left: 15px; 
+		padding-right: 15px; 
+		padding-top: 10px; 
+		padding-bottom: 10px; 
+		margin-right: 10px;
+	}
+
+	/* Events Page Sync Button */
+	button.sync_event
+	{
+		font-family: Calibri;
+		font-size: 25px;
+		font-weight: bold;
+		color: #D0F5A9;
+		width: 110px;
+		height: 50px;
+		background: #ffffff;
+		border: 1px solid #D0F5A9;
+		border-radius: 5px;		
+	}
+	button.sync_event:hover
+	{
+		color: Black;
+		background: #fafafa;
+		border: 1px solid #e6e6e6;
+	}
+
+
+	
+/* Main Featured Events on Homepage */
+
+#container
+{
+	vertical-align: top;
+	position: relative;
+	
+}
+
+.grid
+{
+	line-height: 0px; 
+	color: transparent; 
+	font-size: 12px;
+	font-family: Calibri;
+	text-align: left;
+	min-height: 100px;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #fafafa;
+	border-radius: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+	-moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+	-webkit-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+	-webkit-transition: top 1s ease, left 1s ease, -webkit-box-shadow 1s;
+	-moz-transition: top 1s ease, left 1s ease, -moz-box-shadow 1s;
+}
+.grid:hover
+{
+	box-shadow: 0 1px 4px rgba(34,25,25,1);
+	-moz-box-shadow: 0 1px 4px rgba(34,25,25,1);
+	-webkit-box-shadow: 0 1px 4px rgba(34,25,25,1);
+	-webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; 
+	line-height: 20px; 
+	color: #575858; 
+}
+
+.grid strong 
+{
+	margin: 10px 0;
+	
+	font-size: 18px;
+}
+
+.grid .meta
+{
+	text-align: right;
+	color: #ccc;
+	margin-bottom: 10px;
+}
+
+.grid .imgholder img
+{
+	max-width: 100%;
+	background: #ccc;
+	display: block;	
+}
+.imgholder:hover img
+{
+	transform:scale(1.015, 1.015);
+	-ms-transform:scale(1.015, 1.015);
+	-moz-transform:scale(1.015, 1.015);
+	-webkit-transform:scale(1.015, 1.015);
+	-o-transform:scale(1.015, 1.015);
+}
+
+text.description
+{
+	font-family: Calibri;
+	font-size: 12px;
+}

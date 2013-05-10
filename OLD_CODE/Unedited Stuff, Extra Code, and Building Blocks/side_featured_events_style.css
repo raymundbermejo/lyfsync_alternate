@@ -1,0 +1,115 @@
+
+	
+/* Home Side Featured Events List */
+	div.home_side_featured_events
+	{
+		width: 470px; 
+		height: 466px; 
+		background: #ffffff;
+		border-radius: 2px; 
+		border: 15px solid #ffffff;
+		margin-top: 8px;
+	}
+	
+	/* Search Filter Drop Down Menu*/
+	table.search_dropdown_menu
+	{
+		background: #ffffff;
+		border-radius: 3px;
+		border: 1px solid #ccc; 
+		position: absolute;
+		visibility: hidden;
+	}
+	td.search_dropdown_menu{background: #ffffff; padding-left: 2px}
+	button.search_dropdown_menu
+	{
+		text-align: left;
+		width: 130px;
+		height: 30px;
+		background: white;
+		border: 1px solid #ffffff; 
+		border-radius: 3px;
+		color: black;
+		padding-left: 7px;
+	}
+	button.search_dropdown_menu:hover
+	{
+		background: #fafafa;
+		border: 1px solid #fafafa;
+		border-radius: 2px;
+		color: #606060;
+	}
+	
+	/* Search Bar */
+	input.home_search
+	{
+		font-family: Calibri; 
+		font-size: 13px; 
+		width: 383px; 
+		height: 30px; 
+		background: #ffffff; 
+		border-radius: 3px; 
+		border: 1px solid #BFBDBD; 
+		margin-left: 6px; 
+		padding-left: 7px;
+	}
+	
+	/* Search Bar Button */
+	button.search
+	{
+		background: white; 
+		border: 0px solid #ffffff; 
+		border-radius: 2px;
+	}
+	button.search:hover
+	{
+		background: #fafafa; 
+		border: 0px solid #ccc; 
+		border-radius: 2px;
+	}
+	
+	/* Event Thumbnails */
+	a.event_thumbnail
+	{
+		font-weight:bold;
+		font-family: Calibri;
+		font-size: 13px;
+		color: #000000;
+		text-decoration: none;
+	}
+	a.event_thumbnail:hover
+	{
+		font-weight: bold;
+		font-family: Calibri;
+		font-size: 13px;
+		color: #63BA33;
+		text-decoration: underline;
+	}
+	table.event_thumbnail
+	{
+		width: 345px; 
+		height: 150px; 
+		background: #FFFFFF; 
+		border-radius: 3px;
+		border: 1px solid #ffffff;
+		box-shadow: inset 0px -11px 4px -11px #CCC;		
+		padding-left: 3px;
+		padding-top: 3px;
+		padding-right: 3px;
+		padding-bottom: 3px;
+		margin-bottom: 3px;
+		
+	}
+	table.event_thumbnail:hover
+	{
+		background: #fafafa; 
+		border: 1px solid #ccc;
+		border-radius: 3px; 
+	}
+	td.event_thumbnail
+	{
+		font-family: Calibri;
+		font-size: 13px;
+	}
+	
+	

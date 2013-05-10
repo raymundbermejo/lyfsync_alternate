@@ -1,0 +1,31 @@
+TO BE PUT IN ALL HOMEPAGES EXCEPT FOR THE ONE WHERE YOU LOGIN
+<?php 
+if (isset($_POST['submit']))
+{
+
+	$un = $_POST['user'];
+	$pw = $_POSY['pass'];
+	
+	$result = mysql_query("SELECT * FROM usertable WHERE `un` = '$un' AND `pw` = $pw");
+	if (do a check here if a row exits) // IF Result has an entry then login
+	{
+		$_SESSION['logged_id'] = $result['id'];
+	}
+	else // no entry return error
+	{
+		
+	}
+}
+?>
+
+TO BE PUT IN ALL HEADERS EXCEPT FOR THE ONE WHERE YOU LOGIN
+<?php
+if (isset($_SESSION['logged_id']))
+{
+	
+}
+else
+{
+	//put a redirect here back to home page
+}
+?>

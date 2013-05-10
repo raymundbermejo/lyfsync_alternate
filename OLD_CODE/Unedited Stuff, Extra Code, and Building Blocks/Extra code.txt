@@ -1,0 +1,110 @@
+<?php /*
+$form = "<form id='username_password_input' align = 'left' action='./Home.php' method='post' display:'none'>
+<table>
+<tr>
+	<td></td>
+	<td><font color='red'>$errormsg</font></td>
+</tr>
+<tr>
+	<td>Username:</td>
+	<td><input type='text' name='user' value='$getuser' /></td>
+</tr>
+<tr>
+	<td>Password:</td>
+	<td><input type='password' name='pass' value='' /></td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type='submit' name='registerbtn' value='Register' /></td>
+</tr>
+</table>
+</form>";
+echo $form;
+*/
+?>
+
+<?php /* Log In Form: Form that appears on right-hand side of Header once Log In option is chosen; button is clicked */ ?>
+<?php
+/*
+<div id="username_password_input" align = "left" 
+style = "width: 380px; 
+height: 85px; 
+background-color: #FFFFFF; 
+border: solid 1px #FFFFFF; 
+border-radius: 5px; 
+box-shadow: 0px 0px 4px 0px #86B404; 
+padding-top: 2px; 
+display:none;">
+	<form action='./Lyfsync/Home.php' method='post'>
+		<table>
+		<tr>
+			<td align = 'center'>
+			<input type='text' name='user' 
+			style='font-family: Calibri; 
+			font-size: 13px; 
+			width:170px; 
+			height: 27px; 
+			background-color: #ffffff; 
+			border-radius: 4px; 
+			border:solid 1px #BFBDBD; 
+			box-shadow: 0px 0px 0 #E6E6E6 inset; 
+			padding-left: 6px'
+			placeholder='Username'>
+			</td>
+			<td>
+			<input type='password' name='pass' 
+			style='font-family: Calibri; 
+			font-size: 13px; 
+			width:170px; 
+			height: 27px; 
+			background-color: #ffffff; 
+			border-radius: 4px; 
+			border:solid 1px #BFBDBD; 
+			box-shadow: 0px 0px 0 #E6E6E6 inset; 
+			padding-left: 6px'
+			placeholder='Password'>
+			</td>
+		</tr>
+		<tr>
+			<td valign = 'top'><a href = '#'><font face = 'Calibri' size = '2' color = '#BFBDBD'><u>Can't remember password?</u></font></a></td>
+			<td align = 'right'><button style = 'width: 60px; 
+			height: 25px; 
+			background-color: white; 
+			border: solid 1px #ccc; 
+			border-radius: 4px'
+			type='submit' name='loginbtn'><font face = 'Calibri' size = '2'> Log In </font></button>
+			</td>
+		</tr>
+		</table>
+	</form>
+</div>
+*/?>
+
+<?php /* These words appear whenever there is a wrong login */ ?>
+<?php /* <div id="retry_login" align = "left" 
+style = "width: 380px; 
+height: 85px; 
+background-color: #FFFFFF; 
+border: solid 1px #FFFFFF; 
+border-radius: 5px; 
+box-shadow: 0px 0px 4px 0px #86B404; 
+padding-top: 2px; 
+display:none;">
+	<form>
+		<table align = "center" style="padding-top:15px">
+		<tr>
+			<td><font size='1px' color='red'></font></td>
+		</tr>
+		<tr>
+			<td align = "right"><button style = "width: 60px; 
+			height: 25px; 
+			background-color: white; 
+			border: solid 1px #ccc; 
+			border-radius: 4px;"
+			onclick=retry_login() name="retrylogin"><font face = "Calibri" size = "2">Retry</font></button></td>
+		</tr>
+		</table>
+	</form>
+</div>
+*/
+?>

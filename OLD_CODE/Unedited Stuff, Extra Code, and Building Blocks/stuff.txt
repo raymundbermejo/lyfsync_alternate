@@ -1,0 +1,23 @@
+/*
+function open_sign_up() {
+window.location = '/LyfSync/Sign_Up_Page.php';
+}
+
+function incorrect_login_error() {
+var upi = document.getElementById("incorrect_login_text");
+upi.style.display = "block";
+}
+
+function unactivated_login_error() {
+var upi = document.getElementById("unactivated_login_text");
+upi.style.display = "block";
+}
+
+function retry_login() {
+var upi = document.getElementById("username_password_input");
+var rli = document.getElementById("retry_login");
+rli.style.display = "none";
+upi.style.display = "block";
+}
+
+*/
